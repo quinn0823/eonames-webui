@@ -1,0 +1,158 @@
+{
+  "name_parts": {
+    "fuxing": {
+      "strokes": 7,
+      "characters": [
+        {
+          "char": "李",
+          "bihua": 7,
+          "wuxing": "火",
+          "is_xiyong": true
+        }
+      ]
+    },
+    "muxing": {
+      "strokes": 12,
+      "characters": [
+        {
+          "char": "黄",
+          "bihua": 12,
+          "wuxing": "土",
+          "is_xiyong": true
+        }
+      ]
+    },
+    "zi": {
+      "strokes": 9,
+      "characters": [
+        {
+          "char": "政",
+          "bihua": 9,
+          "wuxing": "火",
+          "is_xiyong": true
+        }
+      ]
+    },
+    "ming": {
+      "strokes": 16,
+      "characters": [
+        {
+          "char": "霖",
+          "bihua": 16,
+          "wuxing": "水",
+          "is_xiyong": false
+        }
+      ]
+    }
+  },
+  "grids": {
+    "tiange": {
+      "stroke_sum": 19,
+      "wuxing": "水",
+      "yinyang": "阳",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": false,
+        "powers": [
+          "凶险多灾（逆境、病难、浮沉多灾）",
+          "败家运（凶险病弱、家族缘薄）",
+          "短命运（若天、地、人三格中两格有此数者，难逃此命）",
+          "遭难（品性不端、为人无德）"
+        ]
+      }
+    },
+    "renge": {
+      "stroke_sum": 21,
+      "wuxing": "木",
+      "yinyang": "阳",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "大吉",
+        "is_female_forbidden": true,
+        "powers": [
+          "大吉祥",
+          "妇女孤、独、寡运（夫妻两虎相斗）",
+          "首领"
+        ]
+      }
+    },
+    "dige": {
+      "stroke_sum": 28,
+      "wuxing": "金",
+      "yinyang": "阴",
+      "is_xiyong": true,
+      "is_xiyong_yinyang": true,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": true,
+        "powers": [
+          "凶险多灾（逆境、病难、浮沉多灾）",
+          "妇女孤、独、寡运（夫妻两虎相斗）",
+          "孤独运（妻凌夫或夫克妻）",
+          "短命运（若天、地、人三格中两格有此数者，难逃此命）",
+          "遭难（品性不端、为人无德）"
+        ]
+      }
+    },
+    "waige": {
+      "stroke_sum": 23,
+      "wuxing": "火",
+      "yinyang": "阳",
+      "is_xiyong": true,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "大吉",
+        "is_female_forbidden": true,
+        "powers": [
+          "大吉祥",
+          "妇女孤、独、寡运（夫妻两虎相斗）",
+          "财运（多钱财、富贵）",
+          "首领"
+        ]
+      }
+    },
+    "zongge": {
+      "stroke_sum": 44,
+      "wuxing": "火",
+      "yinyang": "阴",
+      "is_xiyong": true,
+      "is_xiyong_yinyang": true,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": false,
+        "powers": [
+          "凶险多灾（逆境、病难、浮沉多灾）",
+          "短命运（若天、地、人三格中两格有此数者，难逃此命）",
+          "遭难（品性不端、为人无德）"
+        ]
+      }
+    }
+  },
+  "sancai": {
+    "tiange": "",
+    "renge": "半吉半凶",
+    "dige": "",
+    "details": [
+      {
+        "from": "tiange",
+        "to": "renge",
+        "type": "生",
+        "description": "水生木"
+      },
+      {
+        "from": "dige",
+        "to": "renge",
+        "type": "克",
+        "description": "金克木"
+      }
+    ],
+    "are_tiange_renge_same_yinyang": true,
+    "are_renge_dige_same_yinyang": false
+  },
+  "xiyong_grid_count": 3,
+  "xiyong_yinyang_grid_count": 2,
+  "same_yinyang_cancai_count": 1
+}

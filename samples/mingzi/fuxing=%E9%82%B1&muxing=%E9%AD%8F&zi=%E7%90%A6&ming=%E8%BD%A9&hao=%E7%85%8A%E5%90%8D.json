@@ -1,0 +1,184 @@
+{
+  "name_parts": {
+    "fuxing": {
+      "strokes": 12,
+      "characters": [
+        {
+          "char": "邱",
+          "bihua": 12,
+          "wuxing": "木",
+          "is_xiyong": false
+        }
+      ]
+    },
+    "muxing": {
+      "strokes": 18,
+      "characters": [
+        {
+          "char": "魏",
+          "bihua": 18,
+          "wuxing": "木",
+          "is_xiyong": false
+        }
+      ]
+    },
+    "zi": {
+      "strokes": 13,
+      "characters": [
+        {
+          "char": "琦",
+          "bihua": 13,
+          "wuxing": "木",
+          "is_xiyong": false
+        }
+      ]
+    },
+    "ming": {
+      "strokes": 10,
+      "characters": [
+        {
+          "char": "轩",
+          "bihua": 10,
+          "wuxing": "土",
+          "is_xiyong": false
+        }
+      ]
+    },
+    "hao": {
+      "strokes": 19,
+      "characters": [
+        {
+          "char": "煊",
+          "bihua": 13,
+          "wuxing": "火",
+          "is_xiyong": false
+        },
+        {
+          "char": "名",
+          "bihua": 6,
+          "wuxing": "水",
+          "is_xiyong": false
+        }
+      ]
+    }
+  },
+  "grids": {
+    "tiange": {
+      "stroke_sum": 30,
+      "wuxing": "水",
+      "yinyang": "阴",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": false,
+        "powers": [
+          "遭难（品性不端、为人无德）"
+        ]
+      }
+    },
+    "renge": {
+      "stroke_sum": 31,
+      "wuxing": "木",
+      "yinyang": "阳",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "大吉",
+        "is_female_forbidden": false,
+        "powers": [
+          "大吉祥",
+          "妇女德行优良（品性温良、助夫、爱子）"
+        ]
+      }
+    },
+    "dige": {
+      "stroke_sum": 28,
+      "wuxing": "金",
+      "yinyang": "阴",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": true,
+        "powers": [
+          "凶险多灾（逆境、病难、浮沉多灾）",
+          "妇女孤、独、寡运（夫妻两虎相斗）",
+          "孤独运（妻凌夫或夫克妻）",
+          "短命运（若天、地、人三格中两格有此数者，难逃此命）",
+          "遭难（品性不端、为人无德）"
+        ]
+      }
+    },
+    "waige": {
+      "stroke_sum": 22,
+      "wuxing": "木",
+      "yinyang": "阴",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": false,
+        "powers": [
+          "凶险多灾（逆境、病难、浮沉多灾）",
+          "败家运（凶险病弱、家族缘薄）",
+          "孤独运（妻凌夫或夫克妻）",
+          "遭难（品性不端、为人无德）"
+        ]
+      }
+    },
+    "qige": {
+      "stroke_sum": 31,
+      "wuxing": "木",
+      "yinyang": "阳",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "大吉",
+        "is_female_forbidden": false,
+        "powers": [
+          "大吉祥",
+          "妇女德行优良（品性温良、助夫、爱子）"
+        ]
+      }
+    },
+    "zongge": {
+      "stroke_sum": 72,
+      "wuxing": "木",
+      "yinyang": "阴",
+      "is_xiyong": false,
+      "is_xiyong_yinyang": false,
+      "shuli": {
+        "luck": "凶",
+        "is_female_forbidden": false,
+        "powers": [
+          "凶险多灾（逆境、病难、浮沉多灾）"
+        ]
+      }
+    }
+  },
+  "sancai": {
+    "tiange": "",
+    "renge": "半吉半凶",
+    "dige": "",
+    "details": [
+      {
+        "from": "tiange",
+        "to": "renge",
+        "type": "生",
+        "description": "水生木"
+      },
+      {
+        "from": "dige",
+        "to": "renge",
+        "type": "克",
+        "description": "金克木"
+      }
+    ],
+    "are_tiange_renge_same_yinyang": false,
+    "are_renge_dige_same_yinyang": false
+  },
+  "xiyong_grid_count": 0,
+  "xiyong_yinyang_grid_count": 0,
+  "same_yinyang_cancai_count": 0
+}
