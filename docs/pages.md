@@ -10,36 +10,36 @@
 
 ### 输入
 
-- 父姓（汉字）(fuxing)
-- 母姓（汉字）(muxing)
-- 字（汉字）(zi)
-- 名（汉字）(ming)
-- 号（汉字。可选，默认空）(hao)
-- 关系组：
-  - 喜用五行（五行之间多选。可选，默认空）(xiyong_wuxing)
-  - 喜用阴阳（阴阳之间单选。`喜用五行`有值时，才显示以供选择。本身也可选，默认空）(xiyong_yinyang)
+| 属性     | 类型                 | 可选       | 参数名         | 备注                               |
+| -------- | -------------------- | ---------- | -------------- | ---------------------------------- |
+| 父姓     | 汉字或数字（笔画数） |            | fuxing         |
+| 母姓     | 汉字或数字（笔画数） |            | muxing         |
+| 字       | 汉字或数字（笔画数） |            | zi             |
+| 名       | 汉字或数字（笔画数） |            | ming           |
+| 号       | 汉字或数字（笔画数） | 是，默认空 | hao            |
+| 喜用五行 | 五行之间多选       | 是，默认空 | xiyong_wuxing  |
+| 喜用阴阳 | 阴阳之间单选       | 是，默认空 | xiyong_yinyang | `喜用五行`有值时，才显示以供可选 |
 
 ### 输出
 
 #### 表头（双层）
 
-- 姓名部分 (RESPONSE.name_parts.*)
-  - 父姓 (fuxing)
-  - 母姓 (muxing)
-  - 字 (zi)
-  - 名 (ming)
-  - 号（有号时）(hao)
-- 五格 (RESPONSE.grids.*)
-  - 天格 (tiange)
-  - 人格 (renge)
-  - 地格 (dige)
-  - 外格 (waige)
-  - 奇格（有号时）(qige)
-  - 总格 (zongge)
-- 三才 (RESPONSE.sancai.*)
-  - 天格 (tiange)
-  - 人格 (renge)
-  - 地格 (dige)
+| 第一层   | 第二层         | 响应路径                   |
+| -------- | -------------- | -------------------------- |
+| 姓名部分 | 父姓           | RESPONSE.name_parts.fuxing |
+| 姓名部分 | 母姓           | RESPONSE.name_parts.muxing |
+| 姓名部分 | 字             | RESPONSE.name_parts.zi     |
+| 姓名部分 | 名             | RESPONSE.name_parts.ming   |
+| 姓名部分 | 号（有号时）   | RESPONSE.name_parts.hao    |
+| 五格     | 天格           | RESPONSE.grids.tiange      |
+| 五格     | 人格           | RESPONSE.grids.renge       |
+| 五格     | 地格           | RESPONSE.grids.dige        |
+| 五格     | 外格           | RESPONSE.grids.waige       |
+| 五格     | 奇格（有号时） | RESPONSE.grids.qige        |
+| 五格     | 总格           | RESPONSE.grids.zongge      |
+| 五格     | 天格           | RESPONSE.sancai.tiange     |
+| 五格     | 人格           | RESPONSE.sancai.renge      |
+| 五格     | 地格           | RESPONSE.sancai.dige       |
 
 #### 表体
 
